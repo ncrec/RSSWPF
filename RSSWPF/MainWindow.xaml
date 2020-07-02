@@ -1,0 +1,16 @@
+﻿<Window x:Class="RSSWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RSSWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Name="AcceptedButton"  Content="Принят" HorizontalAlignment="Left" Margin="49,39,0,0" VerticalAlignment="Top" Click="AcceptedButton_Click" Width="100"/>
+        <Button Name="SoldOutButton" Content="Продан"  HorizontalAlignment="Left" Margin="49,78,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.076,0.202" Width="100" Click="SoldOutButton_Click"/>
+        <Button Name="ToTheWarehouseButton" Content="На склад" HorizontalAlignment="Left" Margin="49,115,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.429,-0.399" Width="100" Click="ToTheWarehouseButton_Click"/>
+        <Button Name="ReportButton" Content="Отчет" HorizontalAlignment="Left" Margin="49,151,0,0" VerticalAlignment="Top" Width="100" Click="ReportButton_Click"/>
+
+    </Grid>
+</Window>
